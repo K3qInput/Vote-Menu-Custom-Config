@@ -1,0 +1,94 @@
+items:
+  close_menu:
+    display_name: '&c&lClose Menu'
+    left_click_commands:
+    - '[close]'
+    material: REDSTONE_LAMP
+    slot: 26
+  extra_rewards:
+    display_name: '&6&lExtra Voting Rewards'
+    left_click_commands:
+    - '[player] open rewardsmenu'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    lore:
+    - '&7View additional rewards you can earn'
+    - '&7by consistently voting every day!'
+    material: ENDER_CHEST
+    slot: 22
+  filler:
+    display_name: '&f'
+    material: GRAY_STAINED_GLASS_PANE
+    slots:
+    - 0-26
+  main:
+    display_name: '&#00FFCC&lVoting Rewards'
+    left_click_commands:
+    - "[message] &#00FFCC\u25B6 Voting Links: &fDOWN"
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[close]'
+    lore:
+    - '&7Click below to access voting links'
+    - ''
+    - '&#00FFCC&lRewards Per Vote:'
+    - "&a\u2714 &7Vote Crate Key"
+    - "&a\u2714 &7$250 In-Game Money"
+    - "&a\u2714 &7200 Lifesteal XP"
+    - ''
+    - '&#00FFCC&l&nCLICK FOR VOTING LINKS'
+    material: HEART_OF_THE_SEA
+    slot: 13
+  vote_link_1:
+    display_name: '&#00FFCC&lVote Link #1'
+    left_click_commands:
+    - "[message] &#00FFCC\u25B6 Vote Link #1: &fhttps://mc-lists.org/server-crazymc.5288/vote"
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[close]'
+    lore:
+    - '&7Click to vote on this site'
+    - ''
+    - '&#00FFCC&lRewards:'
+    - "&a\u2714 &7Vote Crate Key"
+    - "&a\u2714 &7$250 In-Game Money"
+    - "&a\u2714 &7200 Lifesteal XP"
+    - ''
+    - '&#00FFCC&l&nCLICK FOR VOTE LINK'
+    material: TOTEM_OF_UNDYING
+    slot: 11
+  vote_link_2:
+    display_name: '&#00FFCC&lVote Link #2'
+    left_click_commands:
+    - "[message] &#00FFCC\u25B6 Vote Link #2: &fhttps://mc-lists.org/server-crazymc.5289/vote"
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[close]'
+    lore:
+    - '&7Click to vote on this site'
+    - ''
+    - '&#00FFCC&lRewards:'
+    - "&a\u2714 &7Vote Crate Key"
+    - "&a\u2714 &7$250 In-Game Money"
+    - "&a\u2714 &7200 Lifesteal XP"
+    - ''
+    - '&#00FFCC&l&nCLICK FOR VOTE LINK'
+    material: NETHERITE_BLOCK
+    slot: 14
+  vote_link_3:
+    display_name: '&#00FFCC&lVote Link #3'
+    left_click_commands:
+    - "[message] &#00FFCC\u25B6 Vote Link #3: &fhttps://mc-lists.org/server-crazymc.5290/vote"
+    - '[sound] BLOCK_NOTE_BLOCK_BELL'
+    - '[close]'
+    lore:
+    - '&7Click to vote on this site'
+    - ''
+    - '&#00FFCC&lRewards:'
+    - "&a\u2714 &7Vote Crate Key"
+    - "&a\u2714 &7$250 In-Game Money"
+    - "&a\u2714 &7200 Lifesteal XP"
+    - ''
+    - '&#00FFCC&l&nCLICK FOR VOTE LINK'
+    material: NETHER_STAR
+    slot: 15
+menu_title: '&3&lVote &b&lRewards'
+open_command: vote
+register_command: true
+size: 27
